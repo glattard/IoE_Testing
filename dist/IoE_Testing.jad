@@ -1,0 +1,23 @@
+Log-level: INFO
+MIDlet-1: IoE_Testing,,ioe_testing.IoE_Testing
+MIDlet-Jar-Size: 91781
+MIDlet-Jar-URL: IoE_Testing.jar
+MIDlet-Name: IoE_Testing
+MIDlet-Permission-1: java.util.logging.LoggingPermission "control" null
+MIDlet-Permission-10: javax.microedition.io.CommProtocolPermission "comm:*"
+MIDlet-Permission-11: javax.microedition.location.LocationPermission "location" "location"
+MIDlet-Permission-12: javax.microedition.io.SocketProtocolPermission "socket://*:*"
+MIDlet-Permission-13: javax.microedition.io.AccessPointPermission "*"
+MIDlet-Permission-14: javax.microedition.cellular.CellularPermission "*"
+MIDlet-Permission-2: jdk.dio.gpio.GPIOPinPermission "*:*" "open,powermanage,setdirection"
+MIDlet-Permission-3: jdk.dio.i2cbus.I2CPermission "*:*" "open,powermanage"
+MIDlet-Permission-4: jdk.dio.DeviceMgmtPermission "*:*" "open,register,unregister"
+MIDlet-Permission-5: jdk.dio.spibus.SPIPermission "*:*" "open,powermanage"
+MIDlet-Permission-6: javax.microedition.io.HttpProtocolPermission "http://*:*"
+MIDlet-Permission-7: jdk.dio.atcmd.ATPermission "*:*" "open,data,powermanage"
+MIDlet-Permission-8: jdk.dio.adc.ADCPermission "*:*" "open,powermanage"
+MIDlet-Permission-9: jdk.dio.gpio.GPIOPortPermission "*:*" "open,powermanage,setdirection"
+MIDlet-Vendor: Nick
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.8
+MicroEdition-Profile: MEEP-8.0
